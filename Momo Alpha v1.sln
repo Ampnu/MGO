@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Momo Alpha v1.CSharp.Plugins", "Momo Alpha v1.CSharp.Plugins.csproj", "{20759458-3903-687F-0866-A47C89C4FEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Momo Alpha v1.CSharp", "Momo Alpha v1.CSharp.csproj", "{1EFEBB14-A2EA-9505-9060-0DECC3B05EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Momo Alpha v1.CSharp.Editor.Plugins", "Momo Alpha v1.CSharp.Editor.Plugins.csproj", "{38EB0C79-DF04-FC13-4106-288A3FA801AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20759458-3903-687F-0866-A47C89C4FEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20759458-3903-687F-0866-A47C89C4FEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20759458-3903-687F-0866-A47C89C4FEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20759458-3903-687F-0866-A47C89C4FEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFEBB14-A2EA-9505-9060-0DECC3B05EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFEBB14-A2EA-9505-9060-0DECC3B05EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFEBB14-A2EA-9505-9060-0DECC3B05EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFEBB14-A2EA-9505-9060-0DECC3B05EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EB0C79-DF04-FC13-4106-288A3FA801AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EB0C79-DF04-FC13-4106-288A3FA801AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EB0C79-DF04-FC13-4106-288A3FA801AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EB0C79-DF04-FC13-4106-288A3FA801AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
