@@ -7,7 +7,6 @@ using UnityEngine;
 public class RotatePlayer : MonoBehaviour
 {
     public float turnSpeed;
-    //public PlayerController jump;
 
     private float horz, vert;
     private float runDir;
@@ -17,7 +16,6 @@ public class RotatePlayer : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        //jump = GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -28,14 +26,14 @@ public class RotatePlayer : MonoBehaviour
         runDir = Mathf.Abs(horz) + Mathf.Abs(vert);
         anim.SetFloat("Speed", runDir);
 
-        if (Input.GetButton("Jump"))
-        {
-            anim.SetBool("Jump", true);
-        }
-        else
-        {
-            anim.SetBool("Jump", false);
-        }
+        //if (Input.GetButton("Jump"))
+        //{
+        //    anim.SetBool("Jump", true);
+        //}
+        //else
+        //{
+        //    anim.SetBool("Jump", false);
+        //}
      
         TurnPlayer(horz, vert);
     }
@@ -91,6 +89,5 @@ public class RotatePlayer : MonoBehaviour
             Quaternion targetDir = Quaternion.Euler(0, 315, 0);
             transform.localRotation = Quaternion.RotateTowards(transform.localRotation, targetDir, turnSpeed);
         }
-
     }
 }

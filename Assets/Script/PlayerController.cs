@@ -9,9 +9,13 @@ public class PlayerController : MonoBehaviour
     public float jumpSpeed = 8.0F;
     public float gravity = 9.81F;
 
+    
+
     private Vector3 moveDirection = Vector3.zero;    
     private CharacterController controller;
-    public float horz, vert;
+    private float horz, vert;
+    public bool isJump;
+  
 
     void Start()
     {    
@@ -23,6 +27,8 @@ public class PlayerController : MonoBehaviour
         horz = Input.GetAxis("Horizontal");
         vert = Input.GetAxis("Vertical");
         MovePlayer(horz, vert);
+        //isJump = false;
+
     }
 
     void MovePlayer(float h, float v)
@@ -33,15 +39,22 @@ public class PlayerController : MonoBehaviour
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
 
-            if (Input.GetButton("Jump"))
-            {
-                moveDirection.y = jumpSpeed;
-            }
+            //if (isJump)
+            //{
+            //    moveDirection.y = jumpSpeed;
+            //}
         }
 
         moveDirection.y -= gravity * Time.deltaTime;
-        controller.Move(moveDirection * Time.deltaTime);
-        
+        controller.Move(moveDirection * Time.deltaTime);               
     }
+
+    //public void Jump(bool jump)
+    //{
+    //    if (jump)
+    //    {
+    //        moveDirection.y = jumpSpeed;
+    //    }
+    //}
 
 }
