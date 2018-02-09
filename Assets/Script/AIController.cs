@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class AIController : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class AIController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        enemy = GetComponent<NavMeshAgent>();
+        enemy = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     // Update is called once per frame
