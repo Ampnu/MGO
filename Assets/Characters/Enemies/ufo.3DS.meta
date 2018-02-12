@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: f18b4b9e2e8961c44bce35c9ec129941
-timeCreated: 1518185444
+guid: c5c170244b02f124d9ebf902f7f41941
+timeCreated: 1518398123
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -25,17 +25,7 @@ ModelImporter:
     4300000: Sphere03
     4300002: Sphere04
     4300004: Box04
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 3 - Default
-    second: {fileID: 2100000, guid: 0a7c12766eb4e844792cacba67337946, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: GlossWhite15
-    second: {fileID: 2100000, guid: 0ab45749b67362f438776d328932bc17, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -65,7 +55,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.2
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -90,7 +80,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

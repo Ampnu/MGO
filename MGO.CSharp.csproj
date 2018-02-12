@@ -322,13 +322,16 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <Compile Include="Assets\Script\AIController.cs" />
+    <Compile Include="Assets\Script\AIChase.cs" />
+    <Compile Include="Assets\Script\AINav.cs" />
+    <Compile Include="Assets\Script\AIPatrol.cs" />
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\ItemCollection.cs" />
     <Compile Include="Assets\Script\JumpBox.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Script\RotatePlayer.cs" />
+    <Compile Include="Assets\Script\Spawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DAX\Shields Collection\Shaders\DAX_AlphaBlend+Add.shader" />
