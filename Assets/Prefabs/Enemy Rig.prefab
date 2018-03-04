@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 114248933659677256}
   - component: {fileID: 135540967434980916}
   m_Layer: 0
-  m_Name: ENEMY RIG
+  m_Name: Enemy Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -299,6 +299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c175a969124f04793fd7e43fad9aaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  enemy: {fileID: 0}
+  waypointIndex: 0
   waypoints:
   - {fileID: 0}
   - {fileID: 0}

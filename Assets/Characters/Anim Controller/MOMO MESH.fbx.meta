@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 71b9cc7f9628bfc44a05e9224084992d
+guid: 8241d02a896be6e419ac72c0f4eeb886
 timeCreated: 1515895958
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: bn_Chest
     100002: bn_Head
@@ -59,10 +59,17 @@ ModelImporter:
     9500000: //RootNode
     11100000: //RootNode
     13700000: MOMO_MESH
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOMO_TEXTURE
+    second: {fileID: 2100000, guid: b84190ccd058ac148a6a41994837b029, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -75,6 +82,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -99,6 +107,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

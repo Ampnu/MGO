@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 143056235361299744}
   - component: {fileID: 114741213988744182}
   m_Layer: 0
-  m_Name: CHARACTER RIG
+  m_Name: Character Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

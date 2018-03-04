@@ -7,7 +7,6 @@ public class Spawner : MonoBehaviour
 {
     private GameObject[] spawnPos;
 
-    //public GameObject[] slurbs;
     public GameObject slurbPrefab;
     public int numberEnemies;
 
@@ -15,11 +14,9 @@ public class Spawner : MonoBehaviour
 	void Awake ()
     {
         spawnPos = GameObject.FindGameObjectsWithTag("Respawn");
-        //slurbs = new GameObject[numberEnemies];
         System.Random randomNumber = new System.Random(GetInstanceID());
 
         SpawnEnemies();
-        //slurbs = GameObject.FindGameObjectsWithTag("Slurbs");
     }
 
     void SpawnEnemies()
