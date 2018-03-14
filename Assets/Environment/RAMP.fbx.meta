@@ -24,21 +24,25 @@ ModelImporter:
     2100000: BRIDGE_MAT
     2100002: POST_MAT
     2100004: lambert1
+    2100006: BRIDGE_MAT1
     2300000: PLANE
     2300002: PLANE 1
     2300004: PLANK
     2300006: POST
     2300008: POST 1
+    2300010: //RootNode
     3300000: PLANE
     3300002: PLANE 1
     3300004: PLANK
     3300006: POST
     3300008: POST 1
+    3300010: //RootNode
     4300000: PLANK
     4300002: POST
     4300004: PLANE
     4300006: POST
     4300008: PLANE
+    4300010: RAMP1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -94,7 +98,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
