@@ -8,12 +8,13 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: lambert1
+    2100002: PLATFORMS_MAT
     2300000: //RootNode
     3300000: //RootNode
     4300000: FIRE_PIT
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -62,7 +63,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 87
+    normalSmoothAngle: 5
     normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4

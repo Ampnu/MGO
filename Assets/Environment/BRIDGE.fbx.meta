@@ -27,7 +27,7 @@ ModelImporter:
       name: BRIDGE_MAT1
     second: {fileID: 2100000, guid: 172c9dc3ac8308c488212c1b4bc12ccb, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
