@@ -1,21 +1,19 @@
 fileFormatVersion: 2
-guid: 0b864473e307b1246b69756cf3f87638
-timeCreated: 1517677421
+guid: 4f246954d82b1f646b632fafc0c56ded
+timeCreated: 1522805207
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: lambert1
-    2100002: PLATFORMS_MAT
+    2100000: PLATFORM_MAT1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: COLUMN_
-    4300002: CYLINDER
+    4300000: TOP
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -64,8 +62,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 10
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

@@ -1,16 +1,26 @@
 fileFormatVersion: 2
-guid: 8b8d4e04d8ca2824da039ef53952cc4a
-timeCreated: 1517968047
+guid: 06e966af8d0bda04999027750a6f00d6
+timeCreated: 1522376986
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: blue
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Sphere.002
+    100000: Camera
+    100002: Cube
+    100004: Lamp
+    100006: //RootNode
+    400000: Camera
+    400002: Cube
+    400004: Lamp
+    400006: //RootNode
+    2000000: Camera
+    2100000: Material_002__RockSmooth0071_7_S_jpg
+    2300000: Cube
+    3300000: Cube
+    4300000: Cube
+    7400000: Default Take
+    9500000: //RootNode
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -85,7 +95,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
