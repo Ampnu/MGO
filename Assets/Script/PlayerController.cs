@@ -10,15 +10,18 @@ public class PlayerController : MonoBehaviour
     public float gravity = 9.81F;
     public AudioSource ping;
 
-
-
     private Vector3 moveDirection = Vector3.zero;    
     private CharacterController controller;
     private float horz, vert;
     public bool isJump;
-    
 
-
+    //void OnColliderEnter(Collider other)
+    //{
+    //    if(other.tag == "Relic")
+    //    {
+    //        print("HIT RELIC");
+    //    }
+    //}
 
     void Start()
     {    

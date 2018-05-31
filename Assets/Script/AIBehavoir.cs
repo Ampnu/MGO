@@ -38,10 +38,10 @@ public class AIBehavoir : MonoBehaviour
 	void Update ()
     {
         PatrolTop(slurbs[0]);
-        PatrolBottom(slurbs[1]);
-        Chase(slurbs[2]);
-        Chase(slurbs[3]);
-        Chase(slurbs[4]);
+        //PatrolBottom(slurbs[1]);
+        //Chase(slurbs[2]);
+        //Chase(slurbs[3]);
+        //Chase(slurbs[4]);
     }
 
     void PatrolTop(GameObject var)
@@ -72,4 +72,5 @@ public class AIBehavoir : MonoBehaviour
     {
         var.GetComponent<NavMeshAgent>().SetDestination(player.position);
     }
+    
 }

@@ -1,0 +1,5 @@
+DAX_Arcane_Shield_03
+DAX_Fire_Shield_Bubble_02
+DAX_Frost_Shield_04
+DAX_Holy_Shield_Bubble_02
+DAX_Magic_Shield_01
