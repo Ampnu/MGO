@@ -379,7 +379,9 @@
     <Compile Include="Assets\Script\AIController.cs" />
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\ChaseStatus.cs" />
+    <Compile Include="Assets\Script\Freeze.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\HitStatus.cs" />
     <Compile Include="Assets\Script\ItemCollection.cs" />
     <Compile Include="Assets\Script\JumpBox.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />

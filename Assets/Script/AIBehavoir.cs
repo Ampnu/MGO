@@ -5,19 +5,17 @@ using UnityEngine.AI;
 
 public class AIBehavoir : MonoBehaviour
 {
+    // Reference to the player's position
+    public Transform player; 
+    
+    //Enemy Nav variables
     public GameObject[] slurbs;
     public Transform station1;
     public Transform station2;
 
     private bool chase;
-    public Transform player;               // Reference to the player's position.
-
-    //public NavMeshAgent[] agent;
-
-    //bring in slurbs from spawn
-    //assign each slurb to a behavior (chase, patrol)
-
-    // Use this for initialization
+  
+    // Initialization spawned enemies
     void Start ()
     {
         slurbs = GameObject.FindGameObjectsWithTag("Slurbs");
@@ -31,17 +29,18 @@ public class AIBehavoir : MonoBehaviour
         slurbs[1].GetComponentInChildren<Renderer>().material.color = Color.blue;
         slurbs[2].GetComponentInChildren<Renderer>().material.color = Color.red;
         slurbs[3].GetComponentInChildren<Renderer>().material.color = Color.yellow;
-        slurbs[4].GetComponentInChildren<Renderer>().material.color = Color.magenta;
+        slurbs[4].GetComponentInChildren<Renderer>().material.color = Color.magenta;       
     }
-    	
-	// Update is called once per frame
-	void Update ()
+
+    // Assign each enemy to a behavior (chase, patrol)
+    void Update ()
     {
         PatrolTop(slurbs[0]);
-        //PatrolBottom(slurbs[1]);
-        //Chase(slurbs[2]);
-        //Chase(slurbs[3]);
-        //Chase(slurbs[4]);
+        PatrolBottom(slurbs[1]);
+        Chase(slurbs[2]);
+        Chase(slurbs[3]);
+        Chase(slurbs[4]);
+
     }
 
     void PatrolTop(GameObject var)

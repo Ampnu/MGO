@@ -177,7 +177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4378918277471868}
   - component: {fileID: 135919097789275000}
-  - component: {fileID: 114889084674465818}
+  - component: {fileID: 114029750952126782}
   m_Layer: 0
   m_Name: Relic
   m_TagString: Relic
@@ -231,7 +231,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1946280650727230}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 2.8045, z: 0.0087547}
+  m_LocalPosition: {x: 4, y: 2.8045, z: 0.0087547}
   m_LocalScale: {x: 0.44273075, y: 0.44273078, z: 0.20320578}
   m_Children:
   - {fileID: 4628167862161142}
@@ -365,6 +365,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1626448857296828}
   m_Mesh: {fileID: 4300000, guid: a3249c20e11cae44ea11e9afc2774d78, type: 3}
+--- !u!114 &114029750952126782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1946280650727230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8382479f509fc074aad2566589dbfb00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUp: {fileID: 0}
+  points: {fileID: 0}
 --- !u!114 &114120496607774250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -433,17 +446,6 @@ MonoBehaviour:
   YRotation: 1
   ZAngularSpeed: 88.22
   ZRotation: 0
---- !u!114 &114889084674465818
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1946280650727230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d757b201327336b4bb4775358373ae37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &135919097789275000
 SphereCollider:
   m_ObjectHideFlags: 1

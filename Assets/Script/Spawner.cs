@@ -15,7 +15,7 @@ public class Spawner : MonoBehaviour
     void Awake ()
     {
         spawnPos = GameObject.FindGameObjectsWithTag("Respawn");                //Find all spawn points in the maze
-        System.Random randomNumber = new System.Random(GetInstanceID());        //Create unquie random numbers
+        //System.Random randomNumber = new System.Random(GetInstanceID());        //Create unquie random numbers
 
         SpawnEnemies();
         SpawnRelic();
