@@ -5,43 +5,42 @@ using UnityEngine.AI;
 
 public class AIBehavoir : MonoBehaviour
 {
-    public GameObject[] slurbs;
+    // Reference to the player's position
+    public Transform player; 
+    
+    //Enemy Nav variables
+    public GameObject[] enemy;
     public Transform station1;
     public Transform station2;
 
     private bool chase;
-    public Transform player;               // Reference to the player's position.
-
-    //public NavMeshAgent[] agent;
-
-    //bring in slurbs from spawn
-    //assign each slurb to a behavior (chase, patrol)
-
-    // Use this for initialization
+  
+    // Initialization spawned enemies
     void Start ()
     {
-        slurbs = GameObject.FindGameObjectsWithTag("Slurbs");
-        slurbs[0].GetComponent<NavMeshAgent>().avoidancePriority = 20;
-        slurbs[1].GetComponent<NavMeshAgent>().avoidancePriority = 40;
-        slurbs[2].GetComponent<NavMeshAgent>().avoidancePriority = 60;
-        slurbs[3].GetComponent<NavMeshAgent>().avoidancePriority = 80;
-        slurbs[4].GetComponent<NavMeshAgent>().avoidancePriority = 80;
+        enemy = GameObject.FindGameObjectsWithTag("Enemy");
+        enemy[0].GetComponent<NavMeshAgent>().avoidancePriority = 20;
+        enemy[1].GetComponent<NavMeshAgent>().avoidancePriority = 40;
+        enemy[2].GetComponent<NavMeshAgent>().avoidancePriority = 60;
+        enemy[3].GetComponent<NavMeshAgent>().avoidancePriority = 80;
+        enemy[4].GetComponent<NavMeshAgent>().avoidancePriority = 80;
 
-        slurbs[0].GetComponentInChildren<Renderer>().material.color = Color.green;
-        slurbs[1].GetComponentInChildren<Renderer>().material.color = Color.blue;
-        slurbs[2].GetComponentInChildren<Renderer>().material.color = Color.red;
-        slurbs[3].GetComponentInChildren<Renderer>().material.color = Color.yellow;
-        slurbs[4].GetComponentInChildren<Renderer>().material.color = Color.magenta;
+        enemy[0].GetComponentInChildren<Renderer>().material.color = Color.green;
+        enemy[1].GetComponentInChildren<Renderer>().material.color = Color.blue;
+        enemy[2].GetComponentInChildren<Renderer>().material.color = Color.red;
+        enemy[3].GetComponentInChildren<Renderer>().material.color = Color.yellow;
+        enemy[4].GetComponentInChildren<Renderer>().material.color = Color.magenta;       
     }
-    	
-	// Update is called once per frame
-	void Update ()
+
+    // Assign each enemy to a behavior (chase, patrol)
+    void Update ()
     {
-        PatrolTop(slurbs[0]);
-        PatrolBottom(slurbs[1]);
-        Chase(slurbs[2]);
-        Chase(slurbs[3]);
-        Chase(slurbs[4]);
+        PatrolTop(enemy[0]);
+        PatrolBottom(enemy[1]);
+        Chase(enemy[2]);
+        Chase(enemy[3]);
+        Chase(enemy[4]);
+
     }
 
     void PatrolTop(GameObject var)
@@ -72,4 +71,5 @@ public class AIBehavoir : MonoBehaviour
     {
         var.GetComponent<NavMeshAgent>().SetDestination(player.position);
     }
+    
 }

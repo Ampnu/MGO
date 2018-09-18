@@ -6,8 +6,7 @@ using UnityEngine;
 
 public class RotatePlayer : MonoBehaviour
 {
-    public float turnSpeed;
-
+    private float turnSpeed = 100F;
     private float horz, vert;
     private float runDir;
     private Animator anim;

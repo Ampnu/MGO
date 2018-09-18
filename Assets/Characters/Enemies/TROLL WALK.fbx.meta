@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: acca28d15e750d34597e628ee52c50f4
+timeCreated: 1529542062
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: anm_contol_chest
+    100002: anm_contol_pelivs
+    100004: anm_control_cog
+    100006: anm_left_arm
+    100008: anm_right_arm
+    100010: BODY
+    100012: control_left_foot
+    100014: control_right_foot
+    100016: CONTROLS
+    100018: EYEBALL
+    100020: FANG_LEFT
+    100022: FANG_RIGHT
+    100024: FANGS
+    100026: gobal_control
+    100028: ikHandle_left_arm
+    100030: ikHandle_leg_left
+    100032: ikHandle_leg_right
+    100034: ikHandle_right_arm
+    100036: jnt_chest
+    100038: jnt_cog
+    100040: jnt_head
+    100042: jnt_left_arm
+    100044: jnt_left_elbow
+    100046: jnt_left_foot
+    100048: jnt_left_knee
+    100050: jnt_left_toe
+    100052: jnt_left_wrist
+    100054: jnt_leg_left
+    100056: jnt_leg_right
+    100058: jnt_right_arm
+    100060: jnt_right_elbow
+    100062: jnt_right_foot
+    100064: jnt_right_knee
+    100066: jnt_right_toe
+    100068: jnt_right_wrist
+    100070: locator_chest
+    100072: locator_left_ankle
+    100074: locator_pelvis
+    100076: locator_right_ankle
+    100078: root
+    100080: SKELETON
+    100082: TROLL
+    100084: //RootNode
+    400000: anm_contol_chest
+    400002: anm_contol_pelivs
+    400004: anm_control_cog
+    400006: anm_left_arm
+    400008: anm_right_arm
+    400010: BODY
+    400012: control_left_foot
+    400014: control_right_foot
+    400016: CONTROLS
+    400018: EYEBALL
+    400020: FANG_LEFT
+    400022: FANG_RIGHT
+    400024: FANGS
+    400026: gobal_control
+    400028: ikHandle_left_arm
+    400030: ikHandle_leg_left
+    400032: ikHandle_leg_right
+    400034: ikHandle_right_arm
+    400036: jnt_chest
+    400038: jnt_cog
+    400040: jnt_head
+    400042: jnt_left_arm
+    400044: jnt_left_elbow
+    400046: jnt_left_foot
+    400048: jnt_left_knee
+    400050: jnt_left_toe
+    400052: jnt_left_wrist
+    400054: jnt_leg_left
+    400056: jnt_leg_right
+    400058: jnt_right_arm
+    400060: jnt_right_elbow
+    400062: jnt_right_foot
+    400064: jnt_right_knee
+    400066: jnt_right_toe
+    400068: jnt_right_wrist
+    400070: locator_chest
+    400072: locator_left_ankle
+    400074: locator_pelvis
+    400076: locator_right_ankle
+    400078: root
+    400080: SKELETON
+    400082: TROLL
+    400084: //RootNode
+    2100000: Eyeball
+    2100002: Skin
+    2100004: Teeth
+    4300000: EYEBALL
+    4300002: BODY
+    4300004: FANG_RIGHT
+    4300006: FANG_LEFT
+    7400000: Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BODY
+    13700002: EYEBALL
+    13700004: FANG_LEFT
+    13700006: FANG_RIGHT
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

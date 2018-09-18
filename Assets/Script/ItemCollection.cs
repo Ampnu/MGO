@@ -9,18 +9,18 @@ public class ItemCollection : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+        //When a player hits a orb
         if (other.tag == "Player")
         {
             playerPickUp.ping.Play();
             ++points.score;
-            gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
         }
-        
     }
 
     private void Start()
     {
         points = GameObject.Find("Game Manager").GetComponent<GameManager>();
-        playerPickUp = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        playerPickUp = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();      
     }
 }

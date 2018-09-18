@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChaseStatus : MonoBehaviour {
 
     public bool isChase;
-
+   
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
