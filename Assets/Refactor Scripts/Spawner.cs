@@ -7,16 +7,11 @@ public class Spawner : MonoBehaviour
 {
     public List<GameObject> enemy;
     public List<GameObject> spawnPoints;
-    public GameObject effect;
-
-    // Use this for initialization
-    void Awake()
-    {
-        SpawnEnemies();
-    }
+    public List<GameObject> relic;
 
     void Start()
     {
+        SpawnRelic();
         StartCoroutine(SpawnEnemies());
     }
 
@@ -25,12 +20,18 @@ public class Spawner : MonoBehaviour
         for (int i = 0; i < enemy.Count; ++i)
         {
             yield return new WaitForSeconds(3);
-            int index = Random.Range(0, spawnPoints.Count); //Choose random number from 0 to 17
-            Instantiate(effect, spawnPoints[index].transform.position, spawnPoints[index].transform.rotation); //Instantiate enemy in maze at a random spawn point
+            int index = Random.Range(0, spawnPoints.Count); //Choose spawn number from 0 to 17
+            enemy[i].GetComponentInChildren<ParticleSystem>().Play();
             enemy[i].transform.position = spawnPoints[index].transform.position;
             enemy[i].SetActive(true);
             spawnPoints.Remove(spawnPoints[index]);
-            //yield return new WaitForSeconds(3);
         }
+    }
+
+    void SpawnRelic()
+    {
+        int index = Random.Range(0, spawnPoints.Count); //Choose spawn number from 0 to 17
+        Instantiate(relic[0], spawnPoints[index].transform.position, spawnPoints[index].transform.rotation);
+        spawnPoints.Remove(spawnPoints[index]);
     }
 }

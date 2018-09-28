@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//-----This script takes player input and moves character accordingly-----//
+
 public class PlayerController : MonoBehaviour
-{
-    
+{    
     private CharacterController controller;
-    public AudioSource ping;
 
     public float speed = 5.0F;
-    public float arcSpeed = 4.0F;
     private float gravity = 9.81F;
     private Vector3 moveDirection = Vector3.zero;    
     private float horz, vert;
@@ -17,40 +16,42 @@ public class PlayerController : MonoBehaviour
     void Start()
     {    
         controller = this.GetComponent<CharacterController>();
-        ping = GetComponent<AudioSource>();
     }
 
     void Update()
     {
-        //--Player Input--//
-        horz = Input.GetAxis("Horizontal");
-        vert = Input.GetAxis("Vertical");
-        //print("Horz: " + horz + " Vert: " + vert);
-
-        //--Player Movement--//
+        TakePlayerInput();
         MovePlayer(horz, vert);
     }
 
-    //--This functions takes player input and moves the character through the scene--//
-    void MovePlayer(float h, float v)
+    //--------------------------------------------------------------------------CORE FUNCTIONS----------------------------------------------------------------------------------------------//
+
+    void TakePlayerInput()
+    {
+        horz = Input.GetAxis("Horizontal");
+        vert = Input.GetAxis("Vertical");
+    }
+ 
+    void MovePlayer(float horz, float vert)
     {
         if (controller.isGrounded)
         {
-            moveDirection = new Vector3(h, 0, v);
-            moveDirection = transform.TransformDirection(moveDirection); //transforming from world to local space
-            moveDirection *= speed; //adding speed factor
-
-            //if (h == Mathf.Abs(1f) && v == Mathf.Abs(1f))
-            //{
-            //    moveDirection *= arcSpeed; //adding speed factor
-            //}
-            //else
-            //{
-            //    moveDirection *= speed; //adding speed factor
-            //}
+            SetPlayerDirection(horz,vert);
         }
+        controller.Move(moveDirection * Time.deltaTime);
 
         moveDirection.y -= gravity * Time.deltaTime;
-        controller.Move(moveDirection * Time.deltaTime);               
     }
+
+    void SetPlayerDirection(float h, float v)
+    {
+        moveDirection = new Vector3(h, 0, v);
+        WorldtoLocalSpace(moveDirection);
+        moveDirection *= speed; 
+    }
+
+    void WorldtoLocalSpace(Vector3 val)
+    {
+        moveDirection = transform.TransformDirection(val);
+    }    
 }

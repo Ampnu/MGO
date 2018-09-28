@@ -3,21 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//-----This script controls the Game States and UI information-----//
+
 public class GameManager : MonoBehaviour {
 
-    public Text scoreText;
+    public Text scoreDisplayUI;
     public int score;
+    public AudioSource ping;
 
-
-	// Use this for initialization
-	void Start ()
+    void Start ()
     {
+        ping = this.GetComponent<AudioSource>();
         score = 0;
 	}
 	
-	// Update is called once per frame
 	void Update ()
     {
-        scoreText.text = score.ToString();
+        scoreDisplayUI.text = score.ToString();
 	}
 }

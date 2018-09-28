@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: c20a95bdde4fa9542a4c300f3b1fdc41
+timeCreated: 1537933180
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Egyptian Symbols UI_0
+    21300002: Egyptian Symbols UI_1
+    21300004: Egyptian Symbols UI_2
+    21300006: Egyptian Symbols UI_3
+    21300008: Egyptian Symbols UI_4
+    21300010: Egyptian Symbols UI_5
+    21300012: Egyptian Symbols UI_6
+    21300014: Egyptian Symbols UI_7
+    21300016: Egyptian Symbols UI_8
+    21300018: Egyptian Symbols UI_9
+    21300020: Egyptian Symbols UI_10
+    21300022: Egyptian Symbols UI_11
+    21300024: Egyptian Symbols UI_12
+    21300026: Egyptian Symbols UI_13
+    21300028: Egyptian Symbols UI_14
+    21300030: Egyptian Symbols UI_15
+    21300032: Egyptian Symbols UI_16
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 57, y: 51, z: 53, w: 1064}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 979
+        width: 1184
+        height: 289
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_1
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1202
+        width: 73
+        height: 74
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 525
+        width: 111
+        height: 416
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 536
+        width: 99
+        height: 333
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 536
+        width: 103
+        height: 336
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_5
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 648
+        width: 348
+        height: 280
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 525
+        width: 112
+        height: 355
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_7
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 535
+        width: 101
+        height: 366
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_8
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 534
+        width: 140
+        height: 414
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 399
+        width: 316
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 280
+        width: 456
+        height: 226
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 503
+        width: 97
+        height: 97
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_12
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 252
+        width: 139
+        height: 253
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 259
+        width: 291
+        height: 98
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_14
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 252
+        width: 119
+        height: 246
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 27
+        width: 1174
+        height: 193
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egyptian Symbols UI_16
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 60
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
